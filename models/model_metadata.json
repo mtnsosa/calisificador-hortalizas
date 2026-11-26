@@ -1,0 +1,23 @@
+{
+  "proyecto": "Clasificador de Hortalizas — Proyecto Integrador MIA (TecNM Virtual)",
+  "actividad": "Actividad 3.3 — Construcción del modelo de Visión",
+  "arquitectura": "MobileNetV2 (ImageNet Backbone + Fine-Tuning Parcial 54 capas)",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "clases": [
+    "lechuga",
+    "brocoli",
+    "col"
+  ],
+  "train_accuracy_final": 0.9837,
+  "val_accuracy_mejor": 0.8205,
+  "test_accuracy": 0.85,
+  "test_precision_macro": 0.8403,
+  "test_recall_macro": 0.8444,
+  "test_f1_macro": 0.8366,
+  "latencia_ms_imagen": 133.33,
+  "tamano_mb": 25.13
+}

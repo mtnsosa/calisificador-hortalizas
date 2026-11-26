@@ -1,0 +1,33 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos históricos y datasets de entrenamiento/desarrollo
+data/raw/
+data/splits/
+data/annotations/
+modelos/
+lettuce.py
+setup_dataset.py
+empaquetar_entrega.ps1
+
+# Salidas previas (conservar únicamente .gitkeep)
+outputs/*
+!outputs/.gitkeep
+
+# Caché de Python y archivos compilados
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Control de versiones, empaquetados y metadatos de IDE/OS
+.git/
+.gitignore
+*.zip
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
